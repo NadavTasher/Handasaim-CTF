@@ -1,0 +1,22 @@
+{
+  "name": "SafeCrafter",
+  "short_name": "SafeCrafter",
+  "description": "SafeCrafter Consumer Edition",
+  "start_url": "../index.html",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "natural",
+  "icons": [
+    {
+      "src": "../images/icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "../images/icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "ChatM8",
+  "short_name": "ChatM8",
+  "description": "EZ ChatM8",
+  "start_url": "../index.html",
+  "background_color": "#aaa5c8",
+  "theme_color": "#aaa5c8",
+  "display": "standalone",
+  "orientation": "natural",
+  "icons": [
+    {
+      "src": "../images/icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "../images/icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
