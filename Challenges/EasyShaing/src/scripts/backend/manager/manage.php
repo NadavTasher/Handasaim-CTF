@@ -1,5 +1,7 @@
 <?php
 
+include_once __DIR__ . "/../base/api.php";
+
 const WORDS_FILE_PATH = __DIR__ . "/../../../files/passwords.txt";
 const DATABASE_FILE_PATH = __DIR__ . "/../../../files/database.json";
 
@@ -23,13 +25,13 @@ api("manage", function ($action, $parameters) {
         } else {
             return [false, "Missing parameters"];
         }
-    } else if ($action === "check") {
+    } else if ($action === "session_check") {
         if (isset($parameters->session) && isset($parameters->word)) {
             if (sha1($parameters->word) === $database->{$parameters->session}) {
                 unset($database->{$parameters->session});
                 file_put_contents(DATABASE_FILE_PATH, json_encode($database));
                 return [true, "NAT{t00_3asy_4or_me3_2789546347}"];
-            }else{
+            } else {
                 return [false, "Wrong answer"];
             }
         } else {

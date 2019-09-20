@@ -2,6 +2,7 @@ const ENDPOINT = "scripts/backend/manager/manage.php";
 const API = "manage";
 
 function load() {
+    view("home");
     if (!cookie_has("session")) {
         api(ENDPOINT, API, "session_welcome", {}, (success, result, error) => {
             if (success) {
@@ -25,6 +26,7 @@ function reset() {
 function checkOnBackend() {
     api(ENDPOINT, API, "session_check", {session: cookie_pull("session"), word: get("in").value}, (success, result, error) => {
         if (success) {
+            view("output");
             get("output").innerText = result;
             reset();
         } else {
