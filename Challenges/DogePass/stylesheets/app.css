@@ -3,4 +3,9 @@ body {
     max-width: 460px;
 }
 
-/* App Style */
+body div {
+    /* Flex */
+    flex-direction: row;
+    /* Alignment */
+    align-items: center;
+}
