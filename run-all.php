@@ -7,7 +7,7 @@
 // Nadav's run-code
 
 const DOCKERABLES = [
-    "ctfd",
+//    "ctfd",
     "dogepass",
     "easyshaing",
     "catgallery",
@@ -21,5 +21,5 @@ foreach (DOCKERABLES as $path => $name) {
     $port = 80+intval($path);
     echo "[ ] Docker starting $name";
     shell_exec("docker run -p 80$port:80 -d --rm " . $name);
-    echo "\r[X] Docker started $name\n";
+    echo "\r\033[K[X] Docker started $name\n";
 }
