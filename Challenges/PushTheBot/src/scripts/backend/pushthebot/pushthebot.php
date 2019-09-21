@@ -12,7 +12,7 @@ include_once __DIR__ . "/../base/api.php";
  *     selectpin: PinNumber
  *     command: digitalWrite, analogWrite, servoWrite
  *     parameter: 0-180
- *     length: DelayInMs
+ *     length: DelayInMs<250
  *    }
  *  ]
  * }
@@ -73,7 +73,7 @@ function ptb_stringify($code)
                 $w_pin = intval($command->selectpin);
                 $w_parameter = intval($command->parameter);
                 $w_length = intval($command->length);
-                if ($w_command >= 0 && $w_pin > 1 && $w_pin <= 12 && $w_parameter >= 0 && $w_parameter <= 180 && $w_length > 0 && $w_length <= 1000) {
+                if ($w_command >= 0 && $w_pin > 1 && $w_pin <= 12 && $w_parameter >= 0 && $w_parameter <= 180 && $w_length > 0 && $w_length <= 250) {
                     $current = "";
                     $current .= chr(1 + $w_pin);
                     $current .= chr(1 + $w_command);
