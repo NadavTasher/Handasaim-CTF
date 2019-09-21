@@ -1,0 +1,29 @@
+{
+  "teamnamehash": "876d13850051c752fbc6d521f3df0c2d4731b668",
+  "codes": [
+    {
+      "selectpin": 4,
+      "command": "digitalWrite",
+      "parameter": 1,
+      "length": 1000
+    },
+    {
+      "selectpin": 4,
+      "command": "digitalWrite",
+      "parameter": 0,
+      "length": 1000
+    },
+    {
+      "selectpin": 4,
+      "command": "digitalWrite",
+      "parameter": 1,
+      "length": 1000
+    },
+    {
+      "selectpin": 4,
+      "command": "digitalWrite",
+      "parameter": 0,
+      "length": 1000
+    }
+  ]
+}
