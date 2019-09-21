@@ -81,6 +81,8 @@ function encode(str) {
     return r + "3" + encode(str.substr(1));
 }
 
+// TODO remove "decode"
+
 function decode(str) {
     if (str.length === 0) return "";
     let s = 0;
