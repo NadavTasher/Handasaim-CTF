@@ -5,25 +5,25 @@
       "selectpin": 4,
       "command": "digitalWrite",
       "parameter": 1,
-      "length": 1000
+      "length": 250
     },
     {
       "selectpin": 4,
       "command": "digitalWrite",
       "parameter": 0,
-      "length": 1000
+      "length": 250
     },
     {
       "selectpin": 4,
       "command": "digitalWrite",
       "parameter": 1,
-      "length": 1000
+      "length": 250
     },
     {
       "selectpin": 4,
       "command": "digitalWrite",
       "parameter": 0,
-      "length": 1000
+      "length": 250
     }
   ]
 }
