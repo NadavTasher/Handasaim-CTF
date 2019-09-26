@@ -15,6 +15,7 @@ const DOCKERABLES = [
     "Challenges/ChatM8" => "chatm8",
     "Challenges/SafeCrafter" => "safecrafter",
     "Challenges/AppPackager" => "apppackager",
+    "Challenges/PushTheBon" => "pushthebot",
 //    "Challenges/AppleTree" => "appletree"
 ];
 
@@ -23,9 +24,3 @@ foreach (DOCKERABLES as $path => $name) {
     shell_exec("cd " . (__DIR__ . "/" . $path) . " && " . ("docker build . -t " . $name));
     echo "\r\e[K[X] Docker built $name\n";
 }
-
-// Tal's build-code
-
-// Alon's build-code
-
-// Yarden's build-code
