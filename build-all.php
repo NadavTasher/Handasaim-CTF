@@ -15,7 +15,6 @@ const DOCKERABLES = [
     "Challenges/ChatM8" => "chatm8",
     "Challenges/SafeCrafter" => "safecrafter",
     "Challenges/AppPackager" => "apppackager",
-    "Challenges/PushTheBon" => "pushthebot",
 //    "Challenges/AppleTree" => "appletree"
 ];
 

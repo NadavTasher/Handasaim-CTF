@@ -1,5 +1,7 @@
 FROM php:7.0-apache
 
-COPY src/challenge/ /var/www/html/
-RUN chmod 775 /var/www/html -R
-RUN chown www-data /var/www/html -R
+COPY src/ /var/www/html/
+RUN useradd -g www-data nopermissions
+RUN chown nopermissions:www-data /var/www/html -R
+RUN chmod 750 /var/www/html -R
+RUN chmod 777 /var/www/html/cats

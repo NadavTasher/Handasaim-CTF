@@ -14,7 +14,6 @@ const DOCKERABLES = [
     "chatm8",
     "safecrafter",
     "apppackager",
-    "pushthebot",
 //    "appletree"
 ];
 
