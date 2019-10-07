@@ -17,6 +17,8 @@ const DOCKERABLES = [
 //    "appletree"
 ];
 
+shell_exec("docker stop $(docker ps -aq)");
+
 foreach (DOCKERABLES as $path => $name) {
     $port = 80+intval($path);
     echo "[ ] Docker starting $name";
