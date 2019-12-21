@@ -1,0 +1,37 @@
+<div id="home" column>
+    <p title>Welcome to KAF Pre-CTF!</p>
+    <p content>We pulled out two challenges from our CTF to give you something to solve in the meantime.</p>
+    <p content>Keep the flags! You'll be able to exchange them for points when the CTF begins.</p>
+    <div column>
+        <p>Challenges</p>
+        <button onclick="page('package');">#reversing - Package</button>
+        <button onclick="page('happycake');">#web - HappyCake</button>
+    </div>
+    <p></p>
+    <div row>
+        <button style="height: 8vh" id="landing" onclick="window.location='https://kaf.sh/';"><img src="images/icons/app/banner.png" alt="Icon"/></button>
+        <button style="height: 8vh" id="ctfd" onclick="window.location='https://play.kaf.sh/';">KAF CTF on CTFd</button>
+    </div>
+</div>
+<div id="package" column>
+    <p title>Package</p>
+    <p content>A package has arrived, come take it!</p>
+    <div column>
+        <button onclick="window.location='files/Package.exe';">Download file</button>
+    </div>
+    <div column>
+        <input flag id="package-flag" type="text" placeholder="Flag (KAF{})"/>
+        <button onclick="check('package')">Submit</button>
+    </div>
+</div>
+<div id="happycake" column>
+    <p title>HappyCake</p>
+    <p content>Wish'em happy birthday!</p>
+    <div column>
+        <button onclick="window.open('http://ctf.kaf.sh','_blank');">Open URL</button>
+    </div>
+    <div column>
+        <input flag id="happycake-flag" type="text" placeholder="Flag (KAF{})"/>
+        <button onclick="check('happycake')">Submit</button>
+    </div>
+</div>

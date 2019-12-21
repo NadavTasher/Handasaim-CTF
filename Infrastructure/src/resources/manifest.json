@@ -1,0 +1,22 @@
+{
+  "name": "KAF 2019",
+  "short_name": "KAF 2019",
+  "description": "KAF CTF 2019 Precompetition",
+  "start_url": "../index.html",
+  "background_color": "#464159",
+  "theme_color": "#464159",
+  "display": "standalone",
+  "orientation": "natural",
+  "icons": [
+    {
+      "src": "../images/icons/app/icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "../images/icons/app/icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

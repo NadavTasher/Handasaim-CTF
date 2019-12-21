@@ -1,0 +1,29 @@
+html{
+    overflow-y: auto;
+}
+
+body {
+    background-color: #464159;
+    max-width: 600px;
+}
+
+[title]{
+    font-size: 6vh;
+}
+
+[content]{
+    font-size: 3.5vh;
+}
+
+img{
+    max-height:6vh;
+    align-self: center;
+}
+
+[flag]{
+    background-color: #c7f0db !important;
+}
+
+[flag]:hover{
+    background-color: #8bbabb !important;
+}
