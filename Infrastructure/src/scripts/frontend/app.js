@@ -6,6 +6,34 @@ function load() {
     }
 }
 
+function update() {
+    function sort(array) {
+        function subsort(array) {
+            for (let i = 0; i < array.length - 1; i++) {
+                if (array[i].solves < array[i + 1].solves) {
+                    let temp = array[i + 1];
+                    array[i + 1] = array[i];
+                    array[i] = temp;
+                }
+            }
+            return array;
+        }
+
+        while (subsort(array) !== array)
+            subsort(array);
+        return array;
+    }
+
+    api("scripts/backend/leaderboard/leaderboard.php", "leaderboard", "list", {}, (success, result) => {
+        if (success) {
+            clear("leaderboard-list");
+            for (let user of sort(result)) {
+                get("leaderboard-list").appendChild(make("p", user.name + " (" + user.solves + " solves)"));
+            }
+        }
+    });
+}
+
 function register(name) {
     api("scripts/backend/leaderboard/leaderboard.php", "leaderboard", "register", {name: name}, (success, result) => {
         if (success) {

@@ -17,7 +17,7 @@ function leaderboard()
                     $user = json_decode(file_get_contents(USERS_DIRECTORY . DIRECTORY_SEPARATOR . $file));
                     $object = new stdClass();
                     $object->name = $user->name;
-                    $object->solves = count($object->solves);
+                    $object->solves = count($user->solved);
                     array_push($users, $object);
                 }
             }
@@ -59,10 +59,10 @@ function user_register($name)
 function user_mark($hash, $challenge)
 {
     if (file_exists(user_file($hash))) {
-        $array = json_decode(file_get_contents(user_file($hash)))->solves;
-        if (!in_array($challenge, $array)) {
-            array_push($array, $challenge);
-            file_put_contents(user_file($hash), json_encode($array));
+        $object = json_decode(file_get_contents(user_file($hash)));
+        if (!in_array($challenge, $object->solved)) {
+            array_push($object->solved, $challenge);
+            file_put_contents(user_file($hash), json_encode($object));
         }
     }
 }
