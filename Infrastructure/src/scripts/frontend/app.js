@@ -7,11 +7,7 @@ function check(challenge) {
         challenge: challenge,
         flag: CryptoJS.SHA256(get(challenge + "-flag").value).toString(CryptoJS.enc.Hex)
     }, (success, result) => {
-        if (success) {
-            popup("Correct Flag!", 6000, "#88AA88");
-        } else {
-            popup("Incorrect Flag!", 6000, "#AA8888");
-        }
+        popup(result, 6000, success ? "#88AA88" : "#AA8888");
     });
 }
 

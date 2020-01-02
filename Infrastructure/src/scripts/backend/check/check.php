@@ -3,21 +3,28 @@
 include_once __DIR__ . "/../base/api.php";
 
 const HASH_MAP = [
-    "dogepass" => "f06cda5c096c84e2cae334dc5e8d88309b1a259ee1585bc9663f1b9cd8180d00",
-    "mysecret" => "03c718771cadea9bf9ed6e380ec2dcf61d21b311432a538f365ac459d84783ac",
-    "lostpen" => ""
+    "dogepass" => "b4b5991a5f040e5ccbf88b89e3bde707151407bcbad82662ec5211bda0819edf",
+    "mysecret" => "b8998a6b37e376037c49be950ddd5dff69c0f314778f96019e2d9e221b8a34b6",
+    "lostpen" => "283700b85105847f7ef877b32f87d593329721984ca01a007c8f93074aace3c2",
+    "easyshaing" => "0afe14441c3a8eda3b2ed914c2b3b0fbc9af949bdf5f0946c34fcd21889a6dfb",
+    "xdb" => "672bcddd1375400c0629f899768a9abbfdc5ad43067974c83bd4b73069a3260c"
 ];
 
 api("check", function ($action, $parameters) {
     if ($action === "check") {
         if (isset($parameters->challenge) && isset($parameters->flag)) {
-            if ($parameters->challenge === "package") return [$parameters->flag === "fb9bbb861f1dbb8e3c66235293fef2736d583ff4e46a85f92566f78659f8ab14", ""];
-            if ($parameters->challenge === "happycake") return [$parameters->flag === "9efbd50e82ec29217ca0d11b969f81e85770e2e89bb444f4313dc52150bc0abd", ""];
-            return [false, ""];
+            if (is_string($parameters->challenge) && is_string($parameters->flag)) {
+                if (array_key_exists($parameters->challenge, HASH_MAP)) {
+                    $hashed = hash("sha256", $parameters->flag);
+                    $solved = $hashed === HASH_MAP[$parameters->challenge];
+                    return [$solved, $solved ? "Challenge solved!" : "Wrong flag :("];
+                }
+                return [false, "No such challenge"];
+            }
         }
-        return [false, ""];
+        return [false, "Parameter error"];
     }
-    return [false, ""];
+    return [false, "Unknown action"];
 }, true);
 
 echo json_encode($result);

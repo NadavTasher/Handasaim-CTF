@@ -17,7 +17,7 @@ public class Database {
         Table privates = new Table("flag");
         for (int i = 0; i < 49; i++)
             privates.add("Flag", "");
-        privates.add("Flag", "NAT{w0w_h0w_many_numb3rs!}");
+        privates.add("Flag", "H{w0w_h0w_many_numb3rs!}");
         tables.add(privates);
         Table publics = new Table("phonebook");
         for (int i = 0; i < 50; i++)

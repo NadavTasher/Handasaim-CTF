@@ -30,7 +30,7 @@ api("manage", function ($action, $parameters) {
             if (sha1($parameters->word) === $database->{$parameters->session}) {
                 unset($database->{$parameters->session});
                 file_put_contents(DATABASE_FILE_PATH, json_encode($database));
-                return [true, "NAT{t00_3asy_4or_me3_2789546347}"];
+                return [true, "H{t00_3asy_4or_me3_}"];
             } else {
                 return [false, "Wrong answer"];
             }
