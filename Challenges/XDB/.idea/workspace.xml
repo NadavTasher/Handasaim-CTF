@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02defc2a-e793-42a3-ba13-7e191c7cddae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Infrastructure/000-default.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Infrastructure/certificates/chain.ca-bundle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Infrastructure/certificates/domain.crt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Infrastructure/certificates/server.csr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Infrastructure/certificates/server.key" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../stop-all.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Infrastructure/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build-all.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../build-all.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../run-all.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../run-all.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
