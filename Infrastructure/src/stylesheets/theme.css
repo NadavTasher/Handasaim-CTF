@@ -25,6 +25,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-color: var(--theme);
 }
 
 textarea {
@@ -39,10 +40,9 @@ textarea {
     display: flex;
     flex-direction: column;
     /* Text */
-    color: black;
+    color: var(--text);
     font-size: large;
-    /* font-family: Arial, ArialHebrew, sans-serif; */
-    font-family: 'Sulphur Point', sans-serif;
+    font-family: Arial, ArialHebrew, sans-serif;
     /* Text Alignment */
     text-align: center;
     text-align-last: center;
@@ -53,7 +53,6 @@ textarea {
 }
 
 [text = ""], [text = true], a, p {
-    color: white;
     flex-flow: wrap;
     height: auto;
 }
@@ -68,18 +67,17 @@ textarea {
     align-content: center;
     align-items: stretch;
     /* Shaping */
-    border-radius: 0.4vh;
+    border-radius: 0.5vh;
     border-color: transparent;
 }
 
 [input = ""], [input = true], button, input, select, textarea {
-    cursor: pointer;
     transition-duration: 0.2s;
-    background-color: #8bbabb;
+    background-color: var(--bright);
 }
 
 [input = ""]:hover, [input = true]:hover, button:hover, input:hover, select:hover, textarea:hover {
-    background-color: #6c7b95;
+    background-color: var(--dark);
 }
 
 [row = ""], [row = true], [column = ""], [column = true], div {
@@ -108,4 +106,8 @@ textarea {
 [row = ""] > *, [row = true] > * {
     /* Width */
     width: 100%;
+}
+
+*::-webkit-scrollbar {
+    display: none;
 }

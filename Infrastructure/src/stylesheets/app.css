@@ -1,10 +1,25 @@
+/**
+ * Copyright (c) 2019 Nadav Tasher
+ * https://github.com/NadavTasher/BaseTemplate/
+ **/
+
+:root {
+    --bright: #8bbabb;
+    --dark: #6c7b95;
+    --theme: #464159;
+    --text: white;
+}
+
 html {
     overflow-y: auto;
 }
 
 body {
-    background-color: #464159;
     max-width: 600px;
+}
+
+p, button, input{
+    font-family: 'Sulphur Point', sans-serif !important;
 }
 
 [title] {

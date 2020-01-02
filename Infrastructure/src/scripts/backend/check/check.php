@@ -2,6 +2,12 @@
 
 include_once __DIR__ . "/../base/api.php";
 
+const HASH_MAP = [
+    "dogepass" => "f06cda5c096c84e2cae334dc5e8d88309b1a259ee1585bc9663f1b9cd8180d00",
+    "mysecret" => "03c718771cadea9bf9ed6e380ec2dcf61d21b311432a538f365ac459d84783ac",
+    "lostpen" => ""
+];
+
 api("check", function ($action, $parameters) {
     if ($action === "check") {
         if (isset($parameters->challenge) && isset($parameters->flag)) {
