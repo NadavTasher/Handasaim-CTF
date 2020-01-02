@@ -7,13 +7,11 @@
 // Nadav's run-code
 
 const DOCKERABLES = [
-//    "ctfd",
+    "infra",
     "dogepass",
     "easyshaing",
     "catgallery",
-    "chatm8",
-    "safecrafter",
-    "apppackager",
+    "xdb"
 //    "appletree"
 ];
 

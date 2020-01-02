@@ -1,37 +1,72 @@
 <div id="home" column>
-    <p title>Welcome to KAF Pre-CTF!</p>
-    <p content>We pulled out two challenges from our CTF to give you something to solve in the meantime.</p>
-    <p content>Keep the flags! You'll be able to exchange them for points when the CTF begins.</p>
+    <p title>Welcome to HandasaimCTF!</p>
+    <p content>I made some challenges for you - solve them!</p>
+    <p content>How it works:</p>
+    <p content>Each challenge has a page, with some description and a link/file.</p>
+    <p content>You have to find a flag, which can look something like this:<br/>NAT{some_text_here}</p>
+    <button>Leaderboard</button>
     <div column>
-        <p>Challenges</p>
-        <button onclick="page('package');">#reversing - Package</button>
-        <button onclick="page('happycake');">#web - HappyCake</button>
-    </div>
-    <p></p>
-    <div row>
-        <button style="height: 8vh" id="landing" onclick="window.location='https://kaf.sh/';"><img src="images/icons/app/banner.png" alt="Icon"/></button>
-        <button style="height: 8vh" id="ctfd" onclick="window.location='https://play.kaf.sh/';">KAF CTF on CTFd</button>
-    </div>
-</div>
-<div id="package" column>
-    <p title>Package</p>
-    <p content>A package has arrived, come take it!</p>
-    <div column>
-        <button onclick="window.location='files/Package.exe';">Download file</button>
-    </div>
-    <div column>
-        <input flag id="package-flag" type="text" placeholder="Flag (KAF{})"/>
-        <button onclick="check('package')">Submit</button>
+        <p>Challenges:</p>
+        <button onclick="page('dogepass');">DogePass</button>
+        <button onclick="page('mysecret');">MySecret</button>
+        <button onclick="page('lostpen');">LostPen</button>
+        <button onclick="page('easyshaing');">EasySHAing</button>
+        <button onclick="page('xdb');">EasySHAing</button>
     </div>
 </div>
-<div id="happycake" column>
-    <p title>HappyCake</p>
-    <p content>Wish'em happy birthday!</p>
+<div id="dogepass" column>
+    <p title>DogePass</p>
+    <p content>Why is it so dark in here?</p>
     <div column>
-        <button onclick="window.open('http://ctf.kaf.sh','_blank');">Open URL</button>
+        <button onclick="window.location='https://handactf.pw:1000';">Open Page</button>
     </div>
     <div column>
-        <input flag id="happycake-flag" type="text" placeholder="Flag (KAF{})"/>
-        <button onclick="check('happycake')">Submit</button>
+        <input flag id="dogepass-flag" type="text" placeholder="Flag"/>
+        <button onclick="check('dogepass')">Submit</button>
+    </div>
+</div>
+<div id="mysecret" column>
+    <p title>MySecret</p>
+    <p content>Don't keep your secrets in a simple file :)</p>
+    <div column>
+        <button onclick="window.location='files/mysecret.exe';">Open Page</button>
+    </div>
+    <div column>
+        <input flag id="mysecret-flag" type="text" placeholder="Flag"/>
+        <button onclick="check('mysecret')">Submit</button>
+    </div>
+</div>
+<div id="lostpen" column>
+    <p title>LostPen</p>
+    <p content>I lost my pen, can you help me find it?</p>
+    <div column>
+        <button onclick="window.location='files/lostpen.png';">Open Image</button>
+    </div>
+    <div column>
+        <input flag id="lostpen-flag" type="text" placeholder="Flag"/>
+        <button onclick="check('lostpen')">Submit</button>
+    </div>
+</div>
+<div id="easyshaing" column>
+    <p title>EasySHAing</p>
+    <p content>What does this do? What is SHA?</p>
+    <div column>
+        <button onclick="open_link('http://handactf.pw:1000');">Open Link</button>
+    </div>
+    <div column>
+        <input flag id="easyshaing-flag" type="text" placeholder="Flag"/>
+        <button onclick="check('easyshaing')">Submit</button>
+    </div>
+</div>
+<div id="xdb" column>
+    <p title>XDB</p>
+    <p content>We found this phonebook system in the wild, and we have a manual for it's database:</p>
+    <p content>Open CMD and type '' to connect</p>
+    <div column>
+        <button onclick="window.location='files/UserManual.pdf';">Download Manual</button>
+    </div>
+    <div column>
+        <input flag id="xdb-flag" type="text" placeholder="Flag"/>
+        <button onclick="check('xdb')">Submit</button>
     </div>
 </div>
