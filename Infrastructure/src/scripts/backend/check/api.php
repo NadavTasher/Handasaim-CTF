@@ -1,6 +1,7 @@
 <?php
 
 include_once __DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . "base" . DIRECTORY_SEPARATOR . "api.php";
+include_once __DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . "leaderboard" . DIRECTORY_SEPARATOR . "api.php";
 
 const HASH_MAP = [
     "dogepass" => "b4b5991a5f040e5ccbf88b89e3bde707151407bcbad82662ec5211bda0819edf",
@@ -19,7 +20,16 @@ function check()
                     if (array_key_exists($parameters->challenge, HASH_MAP)) {
                         $hashed = hash("sha256", $parameters->flag);
                         $solved = $hashed === HASH_MAP[$parameters->challenge];
-                        return [$solved, $solved ? "Challenge solved!" : "Wrong flag :("];
+                        if ($solved) {
+                            if (isset($parameters->secret)) {
+                                if (is_string($parameters->secret)) {
+                                    user_mark($parameters->secret, $parameters->challenge);
+                                }
+                            }
+                            return [true, "Challenge solved!"];
+                        } else {
+                            return [false, "Wrong flag :("];
+                        }
                     }
                     return [false, "No such challenge"];
                 }
