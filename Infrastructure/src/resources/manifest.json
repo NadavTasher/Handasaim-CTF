@@ -1,7 +1,7 @@
 {
-  "name": "KAF 2019",
-  "short_name": "KAF 2019",
-  "description": "KAF CTF 2019 Precompetition",
+  "name": "HandasaimCTF",
+  "short_name": "HandasaimCTF",
+  "description": "HandasaimCTF",
   "start_url": "../index.html",
   "background_color": "#464159",
   "theme_color": "#464159",

@@ -1,4 +1,4 @@
-html{
+html {
     overflow-y: auto;
 }
 
@@ -7,23 +7,18 @@ body {
     max-width: 600px;
 }
 
-[title]{
+[title] {
     font-size: 6vh;
 }
 
-[content]{
-    font-size: 3.5vh;
+[content] {
+    font-size: 2.5vh;
 }
 
-img{
-    max-height:6vh;
-    align-self: center;
-}
-
-[flag]{
+[flag] {
     background-color: #c7f0db !important;
 }
 
-[flag]:hover{
+[flag]:hover {
     background-color: #8bbabb !important;
 }

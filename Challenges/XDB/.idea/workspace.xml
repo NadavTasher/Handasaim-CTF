@@ -2,34 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02defc2a-e793-42a3-ba13-7e191c7cddae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Infrastructure/src/files/dogepass.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DogePass/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DogePass/src/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DogePass/src/WebAppBase.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DogePass/src/files/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DogePass/src/images/icons/app/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DogePass/src/images/icons/app/icon_apple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DogePass/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DogePass/src/layouts/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DogePass/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DogePass/src/layouts/template.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DogePass/src/resources/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DogePass/src/resources/offline.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DogePass/src/resources/svg/icons/app/icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DogePass/src/resources/svg/icons/app/icon_apple.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DogePass/src/resources/svg/icons/offline.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DogePass/src/resources/svg/icons/safari/add.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DogePass/src/resources/svg/icons/safari/share.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DogePass/src/scripts/backend/base/api.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DogePass/src/scripts/frontend/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DogePass/src/scripts/frontend/base/api.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DogePass/src/stylesheets/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DogePass/src/stylesheets/template.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DogePass/src/stylesheets/theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DogePass/src/template.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DogePass/src/worker.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Infrastructure/src/files/UserManual.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/src/files/manual.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/src/images/icons/app/banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/src/images/icons/app/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/src/images/icons/app/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/src/images/icons/app/icon_apple.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/src/images/icons/app/icon_apple.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Infrastructure/src/layouts/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/src/layouts/app.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/src/resources/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/src/resources/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/src/stylesheets/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/src/stylesheets/app.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -791,7 +771,7 @@
       <workItem from="1571399469496" duration="10160000" />
       <workItem from="1574779471151" duration="478000" />
       <workItem from="1575057852433" duration="666000" />
-      <workItem from="1577962736142" duration="1793000" />
+      <workItem from="1577962736142" duration="1959000" />
     </task>
     <task id="LOCAL-00001" summary="Finished">
       <created>1571420935271</created>
@@ -839,7 +819,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13097000" />
+    <option name="totallyTimeSpent" value="13263000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
