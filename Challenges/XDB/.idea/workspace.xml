@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="02defc2a-e793-42a3-ba13-7e191c7cddae" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../Infrastructure/src/layouts/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/src/layouts/app.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Infrastructure/src/scripts/backend/leaderboard/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/src/scripts/backend/leaderboard/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Infrastructure/src/scripts/frontend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/src/scripts/frontend/app.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -766,7 +764,7 @@
       <workItem from="1571399469496" duration="10160000" />
       <workItem from="1574779471151" duration="478000" />
       <workItem from="1575057852433" duration="666000" />
-      <workItem from="1577962736142" duration="2787000" />
+      <workItem from="1577962736142" duration="2884000" />
     </task>
     <task id="LOCAL-00001" summary="Finished">
       <created>1571420935271</created>
@@ -814,7 +812,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14091000" />
+    <option name="totallyTimeSpent" value="14188000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="7" />
