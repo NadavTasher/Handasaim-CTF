@@ -13,6 +13,13 @@
         <button onclick="page('xdb');">XDB</button>
     </div>
 </div>
+<div id="register" column>
+    <p title>Welcome to HandasaimCTF!</p>
+    <p content>You can register yourself by entering your name, thus appearing on the leaderboard:</p>
+    <input flag id="register-name" type="text" placeholder="Name (e.g. Shuky)" spellcheck="false"/>
+    <button onclick="register(get('register-name').value); window.location.reload();">Next</button>
+    <button onclick="cookie_set('secret', ''); window.location.reload();">Skip</button>
+</div>
 <div id="dogepass" column>
     <p title>DogePass</p>
     <p content>Why is it so dark in here?</p>
@@ -50,7 +57,7 @@
     <p title>EasySHAing</p>
     <p content>What does this do? What is SHA?</p>
     <div column>
-        <button onclick="open_link('http://handactf.pw:1000');">Open Link</button>
+        <button onclick="link('http://handactf.pw:1000');">Open Link</button>
     </div>
     <div column>
         <input flag id="easyshaing-flag" type="text" placeholder="Flag" spellcheck="false"/>

@@ -25,11 +25,15 @@ function leaderboard()
         } else if ($action === "register") {
             if (isset($parameters->name)) {
                 if (is_string($parameters->name)) {
-                    $secret = user_register($parameters->name);
-                    if ($secret !== null) {
-                        return [true, $secret];
+                    if (strlen($parameters->name) >= 2) {
+                        $secret = user_register($parameters->name);
+                        if ($secret !== null) {
+                            return [true, $secret];
+                        } else {
+                            return [false, "User already registered"];
+                        }
                     } else {
-                        return [false, "User already registered"];
+                        return [false, "Name too short"];
                     }
                 }
             }

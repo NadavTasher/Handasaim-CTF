@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02defc2a-e793-42a3-ba13-7e191c7cddae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Infrastructure/src/scripts/backend/base/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/src/scripts/backend/base/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Infrastructure/src/scripts/backend/check/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/src/scripts/backend/check/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/src/layouts/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/src/layouts/app.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Infrastructure/src/scripts/backend/leaderboard/leaderboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/src/scripts/backend/leaderboard/leaderboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/src/scripts/frontend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/src/scripts/frontend/app.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
