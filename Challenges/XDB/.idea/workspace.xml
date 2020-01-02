@@ -2,34 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02defc2a-e793-42a3-ba13-7e191c7cddae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Infrastructure/src/files/UserManual.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Infrastructure/src/files/dogepass.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DogePass/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DogePass/src/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DogePass/src/WebAppBase.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DogePass/src/files/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DogePass/src/images/icons/app/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DogePass/src/images/icons/app/icon_apple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DogePass/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DogePass/src/layouts/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DogePass/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DogePass/src/layouts/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DogePass/src/resources/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DogePass/src/resources/offline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DogePass/src/resources/svg/icons/app/icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DogePass/src/resources/svg/icons/app/icon_apple.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DogePass/src/resources/svg/icons/offline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DogePass/src/resources/svg/icons/safari/add.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DogePass/src/resources/svg/icons/safari/share.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DogePass/src/scripts/backend/base/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DogePass/src/scripts/frontend/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DogePass/src/scripts/frontend/base/api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DogePass/src/stylesheets/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DogePass/src/stylesheets/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DogePass/src/stylesheets/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DogePass/src/template.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DogePass/src/worker.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/quteshell/Console.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/quteshell/Quteshell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/quteshell/command/Command.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/quteshell/command/Elevation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/quteshell/command/Exclude.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/quteshell/command/Toolbox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/quteshell/commands/Exit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/quteshell/commands/Help.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/quteshell/commands/Welcome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/quteshell/xdb/Database.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/quteshell/xdb/commands/Connect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/quteshell/xdb/commands/Search.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quteshell/Console.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quteshell/Quteshell.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quteshell/command/Command.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quteshell/command/Elevation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quteshell/command/Exclude.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quteshell/command/Toolbox.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quteshell/commands/Exit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quteshell/commands/Help.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quteshell/commands/Welcome.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quteshell/xdb/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xdb/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quteshell/xdb/commands/Connect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quteshell/xdb/commands/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xdb/commands/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/src/files/UserManual.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/src/files/manual.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/src/layouts/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/src/layouts/app.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -176,8 +176,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+            <state relative-caret-position="249">
+              <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -791,7 +791,7 @@
       <workItem from="1571399469496" duration="10160000" />
       <workItem from="1574779471151" duration="478000" />
       <workItem from="1575057852433" duration="666000" />
-      <workItem from="1577962736142" duration="1270000" />
+      <workItem from="1577962736142" duration="1793000" />
     </task>
     <task id="LOCAL-00001" summary="Finished">
       <created>1571420935271</created>
@@ -839,7 +839,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12574000" />
+    <option name="totallyTimeSpent" value="13097000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -972,8 +972,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        <state relative-caret-position="249">
+          <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
