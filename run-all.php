@@ -1,25 +1,11 @@
 <?php
-/**
- * This is the build-all file.
- * Add your build code in your section.
- */
-
-// Nadav's run-code
-
-const DOCKERABLES = [
-    "infra",
-    "dogepass",
-    "easyshaing",
-    "catgallery",
-    "xdb"
-//    "appletree"
-];
 
 shell_exec("docker stop $(docker ps -aq)");
 
-foreach (DOCKERABLES as $path => $name) {
-    $port = 80+intval($path);
-    echo "[ ] Docker starting $name";
-    shell_exec("docker run -p 80$port:80 -d --rm " . $name);
-    echo "\r\033[K[X] Docker started $name\n";
-}
+echo "[ ] Docker starting infrastructure";
+shell_exec("docker run -p 80:80 -p 443:443 -d --rm infrastructure");
+echo "\r\033[K[X] Docker started infrastructure\n";
+
+echo "[ ] Docker starting easyshaing";
+shell_exec("docker run -p 8080:80 -d --rm easyshaing");
+echo "\r\033[K[X] Docker started easyshaing\n";
