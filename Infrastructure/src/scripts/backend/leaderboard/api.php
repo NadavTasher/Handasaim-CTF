@@ -1,4 +1,5 @@
 <?php
+
 include "api.php";
-check();
+leaderboard();
 echo json_encode($result);

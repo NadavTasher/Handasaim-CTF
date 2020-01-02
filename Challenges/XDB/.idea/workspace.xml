@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02defc2a-e793-42a3-ba13-7e191c7cddae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../EasyShaing/src/scripts/backend/manager/manage.php" beforeDir="false" afterPath="$PROJECT_DIR$/../EasyShaing/src/scripts/backend/manager/manage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LostPen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LostPen/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Infrastructure/src/scripts/backend/check/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Infrastructure/src/scripts/backend/leaderboard/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Infrastructure/src/scripts/backend/leaderboard/leaderboard.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Infrastructure/src/files/manual.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/src/files/xdb.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Infrastructure/src/layouts/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/src/layouts/app.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/src/files/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/src/files/leaderboard/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/src/files/dogepass.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/src/files/files/dogepass.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/src/files/lostpen.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/src/files/files/lostpen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/src/files/xdb.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/src/files/files/xdb.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Infrastructure/src/scripts/backend/check/check.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/src/scripts/backend/check/check.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Infrastructure/src/scripts/frontend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/src/scripts/frontend/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Infrastructure/src/stylesheets/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/src/stylesheets/app.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
