@@ -2,7 +2,7 @@
     <p title>Welcome to HandasaimCTF!</p>
     <p content>I made some challenges for you - solve them!</p>
     <p content>How it works:</p>
-    <p content>Each challenge has a page, with some description and a link/file.<br/>You have to find a flag, which can look something like this:<br/>NAT{some_text_here}</p>
+    <p content>Each challenge has a page, with some description and a link/file.<br/>You have to find a flag, which can look something like this:<br/>H{some_text_here}</p>
     <button>Leaderboard</button>
     <div column>
         <p>Challenges:</p>
@@ -17,8 +17,10 @@
     <p title>Welcome to HandasaimCTF!</p>
     <p content>You can register yourself by entering your name, thus appearing on the leaderboard:</p>
     <input flag id="register-name" type="text" placeholder="Name (e.g. Shuky)" spellcheck="false"/>
-    <button onclick="register(get('register-name').value); window.location.reload();">Next</button>
-    <button onclick="cookie_set('secret', ''); window.location.reload();">Skip</button>
+    <div row>
+        <button onclick="register(get('register-name').value);">Next</button>
+        <button onclick="cookie_set('secret', ''); window.location.reload()">Skip</button>
+    </div>
 </div>
 <div id="dogepass" column>
     <p title>DogePass</p>

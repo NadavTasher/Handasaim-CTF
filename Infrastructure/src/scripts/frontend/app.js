@@ -1,16 +1,19 @@
 function load() {
-    view("home");
+    if (!cookie_has("secret")) {
+        view("register");
+    } else {
+        view("home");
+    }
 }
 
-function register(name, callback = null) {
-    api("scripts/backend/leaderboard/leaderboard.php", "register", {name: name}, (success, result) => {
+function register(name) {
+    api("scripts/backend/leaderboard/leaderboard.php", "leaderboard", "register", {name: name}, (success, result) => {
         if (success) {
             cookie_set("secret", result);
+            window.location.reload();
         } else {
             popup(result, 6000, "#AA8888");
         }
-        if (callback !== null)
-            callback();
     });
 }
 

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02defc2a-e793-42a3-ba13-7e191c7cddae" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Infrastructure/src/layouts/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/src/layouts/app.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/src/scripts/backend/leaderboard/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/src/scripts/backend/leaderboard/api.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Infrastructure/src/scripts/backend/leaderboard/leaderboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/src/scripts/backend/leaderboard/leaderboard.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Infrastructure/src/scripts/frontend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/src/scripts/frontend/app.js" afterDir="false" />
     </list>
