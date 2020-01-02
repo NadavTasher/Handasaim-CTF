@@ -2,10 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02defc2a-e793-42a3-ba13-7e191c7cddae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../MySecret/.idea/.idea.MySecret/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySecret/.idea/.idea.MySecret/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySecret/.idea/.idea.MySecret/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySecret/.idea/.idea.MySecret/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySecret/.idea/.idea.MySecret/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySecret/.idea/.idea.MySecret/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySecret/MySecret.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySecret/MySecret/MySecret.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySecret/MySecret/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySecret/MySecret/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySecret/MySecret/bin/Debug/MySecret.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySecret/MySecret/bin/Debug/MySecret.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySecret/MySecret/bin/Release/MySecret.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySecret/MySecret/bin/Release/MySecret.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySecret/MySecret/obj/Debug/MySecret.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySecret/MySecret/obj/Debug/MySecret.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySecret/MySecret/obj/Debug/MySecret.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySecret/MySecret/obj/Debug/MySecret.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySecret/MySecret/obj/Release/MySecret.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySecret/MySecret/obj/Release/MySecret.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySecret/MySecret/obj/Release/MySecret.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySecret/MySecret/obj/Release/MySecret.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Infrastructure/src/files/files/mysecret.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySecret/flag" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../build-all.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../build-all.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../run-all.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../run-all.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infrastructure/src/layouts/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infrastructure/src/layouts/app.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -634,7 +656,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="683" />
     <option name="width" value="663" />
     <option name="height" value="768" />
@@ -767,7 +789,7 @@
       <workItem from="1571399469496" duration="10160000" />
       <workItem from="1574779471151" duration="478000" />
       <workItem from="1575057852433" duration="666000" />
-      <workItem from="1577962736142" duration="3191000" />
+      <workItem from="1577962736142" duration="3201000" />
     </task>
     <task id="LOCAL-00001" summary="Finished">
       <created>1571420935271</created>
@@ -815,19 +837,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14495000" />
+    <option name="totallyTimeSpent" value="14505000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="768" extended-state="7" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1366" height="768" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26136363" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26136363" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32857144" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32857144" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
