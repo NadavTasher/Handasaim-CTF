@@ -31,5 +31,5 @@ task buildRunnable(type: Jar) {
 
 
 dependencies {
-    compile 'org.reflections:reflections:0.9.11'
+    compile 'org.quteshell:quteshell:1.3.2'
 }

@@ -1,17 +1,26 @@
-package quteshell.xdb.commands;
+package xdb.commands;
 
-import quteshell.Quteshell;
-import quteshell.command.Command;
-import quteshell.command.Elevation;
-import quteshell.commands.Help;
-import quteshell.xdb.Database;
+import org.quteshell.Command;
+import org.quteshell.Elevation;
+import org.quteshell.Shell;
+import org.quteshell.commands.Help;
+import xdb.Database;
+
+import java.util.ArrayList;
 
 @Elevation(Elevation.DEFAULT)
 @Help.Description("You can search through the phone-book using:\n'search name' or 'search'")
-public class Search implements Command {
+public class Search extends Command {
+
+    public static final ArrayList<Database> dbs = new ArrayList<>();
+
+    public Search(Shell shell) {
+        super(shell);
+    }
+
     @Override
-    public void execute(Quteshell shell, String arguments) {
-        Database db = Connect.get(shell.getID());
+    public void execute(String arguments) {
+        Database db = Search.get(shell.getIdentifier());
         if (arguments != null) {
             shell.writeln("Results:");
             try {
@@ -34,5 +43,20 @@ public class Search implements Command {
             } catch (Exception e) {
             }
         }
+    }
+
+    public static Database get(String id) {
+        for (Database db : dbs) {
+            if (db.id.equals(id)) {
+                return db;
+            }
+        }
+        return null;
+    }
+
+    public static void add(String id) {
+        Database db = new Database();
+        db.id = id;
+        dbs.add(db);
     }
 }

@@ -1,4 +1,4 @@
-package quteshell.xdb;
+package xdb;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -17,7 +17,7 @@ public class Database {
         Table privates = new Table("flag");
         for (int i = 0; i < 49; i++)
             privates.add("Flag", "");
-        privates.add("Flag", "KAF{s1mpl3_and_1ns3cure_}");
+        privates.add("Flag", "NAT{w0w_h0w_many_numb3rs!}");
         tables.add(privates);
         Table publics = new Table("phonebook");
         for (int i = 0; i < 50; i++)
