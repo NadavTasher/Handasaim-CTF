@@ -14,7 +14,17 @@ HandasaimCTF is a cybersecurity competition I made for my school (Handasaim), wh
 
 ## Challenges
 ### 0. Infrastructure
-I wrote this infrastructure for the CTF
+I wrote the infrastructure for this CTF, and it features a simple leaderboard, and a simple flag submission system.
 
-#### 1. DogePass
+### 1. DogePass
 This challenge is relatively easy - it gives you a black page, with black text, and you have to use `Ctrl+A` to select the flag.
+
+### 2. MySecret
+This challenge is composed of an .exe file (Microsoft Windows Executable), which you can decompile or run `strings` on to get the flag.
+
+### 3. LostPen
+This challenge is composed of a PNG file (an image) which has black and white pixels, which one might understand are bits. Converting the whole picture into bits, then bytes, reveals an ascii string which is the flag.
+
+### 4. EasySHAing
+This challenge makes the solver think for a second and do some research about SHA1, which they then have to put in a "reversing" website (rainbow tables) which will give them the answer (top 10000 passwords).
+
