@@ -1,0 +1,15 @@
+FROM docker:dind
+# Expose ports
+EXPOSE 1000
+EXPOSE 2000
+EXPOSE 80
+EXPOSE 443
+# Copy files
+COPY infrastructure /home/infrastructure
+COPY challenges /home/challenges
+# Copy startup script
+COPY configuration/startup.sh /bin/startup
+# Permissions
+RUN chmod 777 /bin/startup
+# Entrypoint command
+#CMD ["dockerd-entrypoint.sh", "/bin/startup"]
