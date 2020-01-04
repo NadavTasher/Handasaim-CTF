@@ -3,7 +3,7 @@
 const DOCKERABLES = [
     "Infrastructure" => "infrastructure",
     "Challenges/EasyShaing" => "easyshaing",
-    "Challenges/XDB" => "xdb",
+    "Challenges/HappyCooking" => "happycooking",
 ];
 
 foreach (DOCKERABLES as $path => $name) {
