@@ -28,3 +28,5 @@ This challenge is composed of a PNG file (an image) which has black and white pi
 ### 4. EasySHAing
 This challenge makes the solver think for a second and do some research about SHA1, which they then have to put in a "reversing" website (rainbow tables) which will give them the answer (top 10000 passwords).
 
+### 5. HappyCooking
+This challenge is definitely the hardest challenge in the competition. The user is expected to find a recipe which is the flag by using a timing attack - so by looking at a variable that represents processing time the could understand if their search was successful or not.
