@@ -33,7 +33,7 @@ function search($name, $map, $depth = 0)
     if (isset($map->{$name[0]})) {
         return search(substr($name, 1), $map->{$name[0]}, $depth + 1);
     }
-    return [false, "Failed after $depth characters"];
+    return [false, "$depth characters"];
 }
 
 $recipe = null;
@@ -55,12 +55,14 @@ if ($recipe === null) {
 } else {
     $searched = search($recipe, json_decode(file_get_contents(MAP)));
     if ($searched[0]) {
-
+        echo "<p>Recipe for $recipe:</p>\n";
+        echo "<p>" . $searched[1] . "</p>\n";
+        echo "<!--search OK-->\n";
     } else {
-
+        echo "<p>404 Not Found</p>\n";
+        echo "<!--search FAIL after " . $searched[1] . "-->\n";
     }
 }
 ?>
-
 </body>
 </html>
