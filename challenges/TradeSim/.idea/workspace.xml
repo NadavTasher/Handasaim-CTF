@@ -2,58 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9ef77db-057b-4c4f-9978-83da22b29e41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/quteshell/Console.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/quteshell/Quteshell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/quteshell/command/Command.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/quteshell/command/Elevation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/quteshell/command/Exclude.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/quteshell/command/Toolbox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/quteshell/commands/Clear.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/quteshell/commands/Exit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/quteshell/commands/Help.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/quteshell/commands/Welcome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/quteshell/commands/shebang/buy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/quteshell/commands/shebang/inventory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/quteshell/commands/shebang/off.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/quteshell/commands/shebang/sell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/quteshell/commands/shebang/shebang.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/quteshell/commands/shebang/traders.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/quteshell/commands/shebang/valueof.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/shebang/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/shebang/Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/shebang/Market.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/shebang/Market.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/shebang/Trader.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/shebang/Trader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/quteshell/Console.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/quteshell/Quteshell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/quteshell/command/Command.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/quteshell/command/Elevation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/quteshell/command/Exclude.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/quteshell/command/Toolbox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/quteshell/commands/Clear.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/quteshell/commands/Exit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/quteshell/commands/Help.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/quteshell/commands/Welcome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/quteshell/commands/shebang/buy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/quteshell/commands/shebang/inventory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/quteshell/commands/shebang/off.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/quteshell/commands/shebang/sell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/quteshell/commands/shebang/shebang.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/quteshell/commands/shebang/traders.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/quteshell/commands/shebang/valueof.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/shebang/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/shebang/Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/shebang/Market.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/shebang/Market.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/shebang/Trader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/shebang/Trader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shebang/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shebang/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shebang/commands/buy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shebang/commands/buy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shebang/commands/finish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shebang/commands/finish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../../Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../infrastructure/src/layouts/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../infrastructure/src/layouts/app.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../infrastructure/src/scripts/backend/check/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../infrastructure/src/scripts/backend/check/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../run.sh" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -177,8 +128,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/shebang/commands/finish.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="28" column="56" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="56" />
+            <state relative-caret-position="39">
+              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#482#483#0" expanded="true" />
@@ -805,7 +756,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578242780948</updated>
-      <workItem from="1578242784037" duration="3135000" />
+      <workItem from="1578242784037" duration="3781000" />
     </task>
     <task id="LOCAL-00001" summary="Added TradeSim">
       <created>1578244146987</created>
@@ -814,11 +765,18 @@
       <option name="project" value="LOCAL" />
       <updated>1578244146987</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added TradeSim">
+      <created>1578245968219</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578245968219</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3135000" />
+    <option name="totallyTimeSpent" value="3781000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -826,7 +784,7 @@
     <layout>
       <window_info id="Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -837,7 +795,7 @@
       <window_info anchor="bottom" id="Build" weight="0.33015874" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32857144" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32857144" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -999,8 +957,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/shebang/commands/finish.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="28" column="56" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="56" />
+        <state relative-caret-position="39">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#482#483#0" expanded="true" />

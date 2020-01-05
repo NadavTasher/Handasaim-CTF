@@ -30,3 +30,6 @@ This challenge makes the solver think for a second and do some research about SH
 
 ### 5. HappyCooking
 This challenge is definitely the hardest challenge in the competition. The user is expected to find a recipe which is the flag by using a timing attack - so by looking at a variable that represents processing time the could understand if their search was successful or not.
+
+### 6. TradeSim
+This challenge is a simple scripting challenge that lets you enter buy/sell commands

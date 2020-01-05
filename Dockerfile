@@ -1,6 +1,6 @@
 FROM docker:dind
 # Expose ports
-EXPOSE 1000 2000 80 443
+EXPOSE 1000 2000 3000 80 443
 # Copy files
 COPY infrastructure /home/infrastructure
 COPY challenges /home/challenges
