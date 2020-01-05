@@ -2,6 +2,7 @@ import org.quteshell.Shell;
 import org.quteshell.commands.Echo;
 import org.quteshell.commands.History;
 import org.quteshell.commands.Welcome;
+import shebang.Market;
 import shebang.commands.*;
 
 import java.net.ServerSocket;
@@ -31,6 +32,16 @@ public class Main {
         Shell.Configuration.Commands.add(sell.class);
         Shell.Configuration.Commands.add(traders.class);
         Shell.Configuration.Commands.add(valueof.class);
+        Shell.Configuration.setOnConnect(new Shell.Configuration.OnConnect() {
+            @Override
+            public void onConnect(Shell shell) {
+                shell.writeln("Welcome to TradeSim!");
+                shell.writeln("Type 'help' for a list of commands");
+                shell.writeln("Buy all of the cats, then type 'finish'.");
+                shell.writeln("Tip: after a trader goes bankrupt, you can't interact with him.");
+                Market.begin(shell);
+            }
+        });
         try {
             ServerSocket serverSocket = new ServerSocket(PORT);
             while (listening) {

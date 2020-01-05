@@ -3,7 +3,10 @@ package shebang.commands;
 import org.quteshell.Command;
 import org.quteshell.Elevation;
 import org.quteshell.Shell;
-import shebang.*;
+import shebang.Item;
+import shebang.Market;
+import shebang.Trader;
+import shebang.Tuple;
 
 import java.util.ArrayList;
 
@@ -25,7 +28,7 @@ public class finish extends Command {
             shell.writeln("Finished!");
             shell.writeln("H{th3_l0gic_i5_pr3tty_s1mpl3}");
         } else {
-            shell.writeln("You don't have all of the cats!");
+            shell.writeln("Looks like you don't own all of the cats.");
             shell.execute("exit");
         }
     }

@@ -8,7 +8,8 @@ const HASH_MAP = [
     "mysecret" => "b8998a6b37e376037c49be950ddd5dff69c0f314778f96019e2d9e221b8a34b6",
     "lostpen" => "283700b85105847f7ef877b32f87d593329721984ca01a007c8f93074aace3c2",
     "easyshaing" => "0afe14441c3a8eda3b2ed914c2b3b0fbc9af949bdf5f0946c34fcd21889a6dfb",
-    "happycooking" => "2953e5bd9092d56c65acf323437c843eb31b0f9ad3acbb64ee9db3a144104451"
+    "happycooking" => "2953e5bd9092d56c65acf323437c843eb31b0f9ad3acbb64ee9db3a144104451",
+    "tradesim" => "cd1189935ca68fa7ac105584e057d21a832dbab619e87e4b9039a9385addabf8"
 ];
 
 function check()

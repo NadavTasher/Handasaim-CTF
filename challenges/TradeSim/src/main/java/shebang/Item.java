@@ -14,7 +14,6 @@ public class Item {
             new Item("Egg", 4),
             new Item("Bread", 6),
             new Item("Sourcandy", 3),
-            new Item("Cutlery", 20),
             new Item("Phone", 100),
             new Item("Headphones", 50),
             new Item("Donut", 8),
@@ -22,6 +21,7 @@ public class Item {
             new Item("Mouse", 50),
             new Item("Paper", 25),
             new Item("Tomato", 6),
+            new Item("Snail", 25),
             new Item("Dog", 60),
             new Item("Cat", 150)
     };

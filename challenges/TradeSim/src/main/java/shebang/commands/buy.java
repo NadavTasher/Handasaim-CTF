@@ -26,7 +26,7 @@ public class buy extends Command {
                 try {
                     int amount = Integer.parseInt(amountWord);
                     int ppp = Integer.parseInt(pppWord);
-                    finish.Trader.User user = Market.getUser(shell.getIdentifier());
+                    Trader.User user = Market.getUser(shell.getIdentifier());
                     Trader trader = null;
                     for (Trader t : Market.getMarket(shell.getIdentifier())) {
                         if (t.getName().toLowerCase().equals(traderName.toLowerCase()))
