@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TradeSim.iml" filepath="$PROJECT_DIR$/.idea/modules/TradeSim.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TradeSim_main.iml" filepath="$PROJECT_DIR$/.idea/modules/TradeSim_main.iml" group="TradeSim" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TradeSim_test.iml" filepath="$PROJECT_DIR$/.idea/modules/TradeSim_test.iml" group="TradeSim" />
+    </modules>
+  </component>
+</project>

@@ -1,25 +1,27 @@
 <div id="home" column>
     <p title>Welcome to HandasaimCTF!</p>
-    <p content>I made some challenges for you - solve them!</p>
-    <p content>How it works:</p>
+    <p content>I challenge you to solve these:</p>
     <p content>Each challenge has a page, with some description and a link/file.<br/>You have to find a flag, which can look something like this:<br/>H{some_text_here}</p>
     <button onclick="page('leaderboard'); setInterval(update, 30 * 1000); update();">Leaderboard</button>
     <div column>
         <p>Challenges:</p>
-        <div row>
+        <div style="background-color: greenyellow" row>
             <button onclick="page('dogepass');">DogePass</button>
             <button onclick="page('mysecret');">MySecret</button>
         </div>
-        <div row>
+        <div style="background-color: orange" row>
             <button onclick="page('lostpen');">LostPen</button>
             <button onclick="page('easyshaing');">EasySHAing</button>
         </div>
-        <button onclick="page('happycooking');">HappyCooking</button>
+        <div style="background-color: red" row>
+            <button onclick="page('happycooking');">HappyCooking</button>
+            <button onclick="page('tradesim');">TradeSim</button>
+        </div>
     </div>
 </div>
 <div id="register" column>
     <p title>Welcome to HandasaimCTF!</p>
-    <p content>You can register yourself by entering your name, thus appearing on the leaderboard:</p>
+    <p content>In order to appear on the leaderboard, enter your name:</p>
     <input flag id="register-name" type="text" placeholder="Name (e.g. Shuky)" spellcheck="false"/>
     <div row>
         <button onclick="register(get('register-name').value);">Next</button>
